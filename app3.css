@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    width: 400px;
+    height: 350px;
+    background:#FF00FF;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid #FFC0CB;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 0.2 rgba(0,0,0,0.5);
+}
+form h2{
+    text-align: center;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: yellow;  
+    font-weight: 500;
+}
+form span{
+    margin-left: 10px;
+    font-weight: 400px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #00008B;
+    box-shadow: 5px;
+} 
+form input{
+    width: 60%;
+    height: 25px;
+    margin-left: 10px;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color:#0000FF;
+}
+form input:hover{
+    background:yellow;
+}
+form button{
+    width: 70px;
+    height: 30px;
+    background: #FFC0CB;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px;
+    color: #0000FF;
+    margin-left: 68%;
+}
+form button:hover{
+    background: red;
+    color: white;
+}
+form .password{
+    margin-left: 16px;
+}
